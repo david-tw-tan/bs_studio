@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Private First Look — Beyond Showrooms">
+    <title>First Look — Private Document | Beyond Showrooms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<main class="fl-page fl-page--single-column fl-page--products">
+
+    <!--
+      ═══════════════════════════════════════════════════════════
+      HEADER — personalize via intro greeting + <title> / meta
+      ═══════════════════════════════════════════════════════════
+    -->
+    <header class="fl-header">
+        <p class="fl-header__brand">Beyond Showrooms</p>
+        <h1 class="fl-header__title">First Look</h1>
+        <p class="fl-header__subtitle">A Starting Point for Your Foshan Journey</p>
+        <!-- ▼ Update this date whenever you send or revise the proposal -->
+        <p class="fl-header__date">Updated 18 November 2026</p>
+        <!--
+          ═══════════════════════════════════════════════════════════
+          VERSIONS — keep ONE pattern active; comment out the rest.
+          1 look  → omit this block entirely
+          2 looks → inline switcher (default below)
+          3+ looks → compact menu (details/summary)
+          ═══════════════════════════════════════════════════════════
+        -->
+
+        <!-- 1 look only: delete / comment out the entire versions block -->
+
+        <!-- 3+ looks: compact menu (example — comment out when only one look) -->
+        <!--
+        <details class="fl-versions fl-versions--menu">
+            <summary class="fl-versions__summary">First Look</summary>
+            <div class="fl-versions__panel" role="list">
+                <a class="fl-versions__link is-current" href="./" aria-current="page">First Look — 15 Nov 2026</a>
+            </div>
+        </details>
+        -->
+        <hr class="fl-header__rule">
+    </header>
+
+    <!-- ▼ Edit client name in the greeting below -->
+    <p class="fl-intro">
+        <strong>Hi Harsh</strong> — thanks for your Hermès-inspired shortlist. My factory partner pulled a few representative pieces and prepared quotations and specs for each — take a look below.
+    </p>
+
+    <!-- Product jump nav: off by default (short lists). Set showProductNav: true to enable. -->
+    <nav id="fl-room-nav" class="fl-room-nav" aria-label="Products" hidden></nav>
+
+    <!-- Product sections (built from FIRST_LOOK_CONFIG.products) -->
+    <div id="fl-rooms" class="fl-rooms"></div>
+
+    <aside class="fl-sourcing" aria-label="A note on these pieces">
+        <p class="fl-sourcing__label">A note on these pieces</p>
+        <p class="fl-sourcing__body">All furniture images and videos are taken in factory showrooms where possible. Many pieces <strong>can be customized</strong> — ask us about it.</p>
+    </aside>
+
+    <section class="fl-next" aria-labelledby="fl-next-title">
+        <h2 id="fl-next-title" class="fl-next__title">What Happens Next</h2>
+        <ol class="fl-steps">
+            <li class="fl-step">
+                <h3 class="fl-step__heading">You review this First Look</h3>
+                <p class="fl-step__body">Product information on this page comes from the factory and our own onsite visits. We've focused on a few representative pieces — including some anchors — so you can see if the selections, style, and pricing feel right. Please share any feedback or questions — I'm happy to hop on a short call anytime.</p>
+            </li>
+            <li class="fl-step">
+                <h3 class="fl-step__heading">Proceed to formal engagement</h3>
+                <p class="fl-step__body">If this direction feels right, we can move into a formal engagement with a US$500 project planning fee. That covers dedicated sourcing, detailed quotations, and a fully itemized bespoke plan for your home — typically several weeks of work.</p>
+            </li>
+        </ol>
+        <div class="fl-contact">
+            <div class="fl-contact__person">
+                <img
+                    class="fl-contact__photo"
+                    src="../../david.jpg"
+                    alt="David — Beyond Showrooms"
+                    width="144"
+                    height="144"
+                    loading="lazy"
+                    decoding="async"
+                >
+                <p class="fl-contact__prompt"><strong>Have feedback, or ready for the next step?</strong></p>
+            </div>
+            <div class="fl-contact__options">
+                <a
+                    class="fl-contact__option"
+                    href="https://wa.me/8618500507027"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <svg class="fl-contact__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+                    <span class="fl-contact__text">
+                        <span class="fl-contact__label">WhatsApp</span>
+                        <span class="fl-contact__detail">+86 185 0050 7027</span>
+                    </span>
+                </a>
+                <a
+                    class="fl-contact__option"
+                    href="mailto:david.tan@wildchina.com?subject=My%20home%20project"
+                >
+                    <svg class="fl-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    <span class="fl-contact__text">
+                        <span class="fl-contact__label">Email</span>
+                        <span class="fl-contact__detail">david.tan@wildchina.com</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="fl-about" aria-labelledby="fl-about-title">
+        <h2 id="fl-about-title" class="fl-about__title">About Us</h2>
+        <p>
+            Beyond Showrooms helps international homeowners furnish their homes through a smarter sourcing path in China. We're affiliated with <a href="https://www.wildchina.com" target="_blank" rel="noopener noreferrer">WildChina</a>, China's leading bespoke travel provider since 2001 — and that's where our high-touch, end-to-end service ethos comes from.
+        </p>
+        <p>
+            Watch our docuseries — <a href="https://www.youtube.com/playlist?list=PLem0TGDnDhbR_qDtnVKB2VRIXDtdB-se5" target="_blank" rel="noopener noreferrer">Secret Furniture Empire</a>.
+        </p>
+    </section>
+
+    <footer class="fl-footer fl-footer--closing">
+        <p class="fl-footer__copy">&copy; Beyond Showrooms</p>
+        <p class="fl-footer__site"><a href="https://www.beyondshowrooms.com" target="_blank" rel="noopener noreferrer">www.beyondshowrooms.com</a></p>
+        <p class="fl-footer__privacy">This page is private and intended only for the recipient.</p>
+    </footer>
+
+</main>
+
+<!--
+  ════════════════════════════════════════════════════════════════
+  // PRODUCTS — edit FIRST_LOOK_CONFIG.products below
+  Media files live in THIS folder next to index.html.
+
+  pageLayout: "products"  → grouped by product, carousels + optional video
+  videos[] first (stacked), then images[] (carousel)
+  floatingProductMenu: true  → top-right hamburger (preferred for long pages)
+  scrollPhotoHint: true      → bottom tip when photos in view (off until reload after first lightbox)
+  Legacy full-width nav: showProductNav: true (omit floatingProductMenu if you use this)
+
+  priceRmb + sizeCm are canonical. Details: description → Size/Price meta → optional MSRP footnote.
+  sizeCm: { w, d, h }  OR  [{ label, w, d, h }, ...] for multi-piece items
+  (e.g. chair + footrest). Labels appear in Size; cm|ft·in toggles all.
+  Optional retail ref: msrpUsd, msrpSource, msrpUrl (Inspired-brand MSRP; follows currency toggle).
+  pricingUi: 'inspired-ref' (default) → no client-facing RMB; US$/S$/€ labels as needed.
+  Summary Total* uses summaryFootnote below (default text in lightbox.js if omitted;
+  set summaryFootnote: false to hide).
+  Page toggles: cm|ft·in and USD|secondary currency. Edit FX below per proposal.
+
+  After dropping new photos, run:  python3 resize_images.py
+  Never use the word "replica". Prefer "designer-inspired".
+  ════════════════════════════════════════════════════════════════
+-->
+<script>
+window.FIRST_LOOK_CONFIG = {
+    pageLayout: 'products',
+    galleryLayout: 'single-column',
+    /* ▼ Floating hamburger — jump to products, Summary, Next steps */
+    floatingProductMenu: true,
+    scrollPhotoHint: true,
+    pricingUi: 'inspired-ref',
+    /* ▼ Summary Total* footnote (omit to use lightbox.js default; false to hide) */
+    summaryFootnote: 'Prices are based on the specs shown. Final pricing is subject to confirmation of options, materials, and finishes.',
+    /* ▼ Edit rates when preparing a proposal (RMB per 1 unit of that currency) */
+    rmbPerUsd: 6.7,
+    secondaryCurrency: {
+        code: 'INR',
+        symbol: '₹',
+        rmbPerUnit: 0.071
+    },
+    products: [
+        {
+            id: 'hermes-sofa-set',
+            title: 'Hermes Inspired L-Shaped Sofa Set',
+            priceRmb: 78910,
+            msrpUsd: 95500,
+            msrpSource: 'Hermès USA',
+            msrpUrl: 'https://www.hermes.com/us/en/category/home/furniture-and-lighting/?facet_category=canapes_et_meridiennes',
+            sizeCm: { w: 315, d: 315, h: 72 },
+            description: 'Pricing is for the <strong>L-shaped configuration</strong> you selected — an integrated three- and two-seater corner set in top-grain leather and black walnut, with eight cushions. <em>Note: only the first photo shows the L-shaped set. The other photos and video are current floor samples as separate three- and two-seaters, not joined.</em>',
+            videos: [
+                { src: 'hermes_sofa_set_vid_1.MP4', alt: 'Hermes inspired sofa — current showroom sample (standalone three-seater)' }
+            ],
+            images: [
+                { src: 'hermes_sofa_set_img_1.jpg', alt: 'Hermes inspired L-shaped sofa — older showroom photo of the quoted configuration' },
+                { src: 'hermes_sofa_set_img_2.jpg', alt: 'Hermes inspired sofa — current showroom samples, separate seating' },
+                { src: 'hermes_sofa_set_img_3.jpg', alt: 'Hermes inspired sofa — current showroom seating arrangement' },
+                { src: 'hermes_sofa_set_img_4.jpg', alt: 'Hermes inspired sofa — leather and cushion detail' },
+                { src: 'hermes_sofa_set_img_5.jpg', alt: 'Hermes inspired sofa — current showroom corner view' },
+                { src: 'hermes_sofa_set_img_6.jpg', alt: 'Hermes inspired sofa — current showroom side profile' }
+            ]
+        },
+        {
+            id: 'hermes-dining-table',
+            title: 'Hermes Inspired Dining Table',
+            priceRmb: 33968,
+            msrpUsd: 49000,
+            msrpSource: 'Hermès USA',
+            msrpUrl: 'https://www.hermes.com/us/en/category/home/furniture-and-lighting/?facet_category=tables',
+            sizeCm: { w: 250, d: 140, h: 75 },
+            description: 'Oval dining table sized for everyday meals and hosting. Natural marble top with cognac leather-wrapped legs.',
+            videos: [],
+            images: [
+                { src: 'hermes_dining_table_img_1.jpg', alt: 'Hermes inspired dining table — full view in showroom' },
+                { src: 'hermes_dining_table_img_2.jpg', alt: 'Hermes inspired dining table — marble top detail' },
+                { src: 'hermes_dining_table_img_3.jpg', alt: 'Hermes inspired dining table — leather-wrapped leg detail' }
+            ]
+        },
+        {
+            id: 'hermes-bed-bench',
+            title: 'Hermes Inspired Bed Bench',
+            priceRmb: 15913,
+            msrpUsd: 37300,
+            msrpSource: 'Hermès USA',
+            msrpUrl: 'https://www.hermes.com/us/en/product/cheval-d-arcons-bench-les-necessaires-d-hermes-H960394MU01/',
+            sizeCm: { w: 180, d: 44, h: 46 },
+            description: 'Upholstered bed-end bench with integrated center storage. Cognac leather seating at each end and black walnut drawer fronts.',
+            videos: [
+                { src: 'hermes_bed_bench_vid_1.mp4', alt: 'Hermes inspired bed bench — showroom video' }
+            ],
+            images: [
+                { src: 'hermes_bed_bench_img_1.jpg', alt: 'Hermes inspired bed bench — front view' },
+                { src: 'hermes_bed_bench_img_2.jpg', alt: 'Hermes inspired bed bench — cognac leather end detail' },
+                { src: 'hermes_bed_bench_img_3.jpg', alt: 'Hermes inspired bed bench — storage drawer detail' },
+                { src: 'hermes_bed_bench_img_4.jpg', alt: 'Hermes inspired bed bench — walnut drawer front' },
+                { src: 'hermes_bed_bench_img_5.jpg', alt: 'Hermes inspired bed bench — in bedroom setting' },
+                { src: 'hermes_bed_bench_img_6.jpg', alt: 'Hermes inspired bed bench — side profile' }
+            ]
+        },
+        {
+            id: 'hermes-writing-desk',
+            title: 'Hermes Inspired Writing Desk',
+            priceRmb: 18708,
+            msrpUsd: 32300,
+            msrpSource: 'Hermès USA',
+            msrpUrl: 'https://www.hermes.com/us/en/product/metiers-desk-H920018Mv03/',
+            sizeCm: { w: 235, d: 69, h: 74 },
+            description: 'Writing desk with a wide leather work surface and sculptural base. Saddle leather top with contrast stitching on black walnut.',
+            videos: [
+                { src: 'hermes_desk_vid_1.MP4', alt: 'Hermes inspired writing desk — showroom video' }
+            ],
+            images: [
+                { src: 'hermes_desk_img_1.jpg', alt: 'Hermes inspired writing desk — full view' },
+                { src: 'hermes_desk_img_2.jpg', alt: 'Hermes inspired writing desk — leather top detail' }
+            ]
+        },
+        {
+            id: 'hermes-desk-pedestal',
+            title: 'Hermes Inspired Desk Pedestal',
+            priceRmb: 17425,
+            msrpUsd: 25600,
+            msrpSource: 'Hermès USA',
+            msrpUrl: 'https://www.hermes.com/us/en/product/metiers-storage-chest-H920020Mv05/',
+            sizeCm: { w: 48, d: 33, h: 62 },
+            description: 'Compact folding desk valet with sections for papers and small essentials. Walnut structure with saddle leather trim and interior.',
+            videos: [],
+            images: [
+                { src: 'hermes_suitcase_img_1.jpg', alt: 'Hermes inspired desk pedestal — closed suitcase form' },
+                { src: 'hermes_suitcase_img_2.jpg', alt: 'Hermes inspired desk pedestal — open interior' },
+                { src: 'hermes_suitcase_img_3.jpg', alt: 'Hermes inspired desk pedestal — leather and walnut detail' },
+                { src: 'hermes_suitcase_img_4.jpg', alt: 'Hermes inspired desk pedestal — storage compartments' },
+                { src: 'hermes_suitcase_img_5.jpg', alt: 'Hermes inspired desk pedestal — hardware detail' }
+            ]
+        },
+        {
+            id: 'hermes-foldable-chair',
+            title: 'Hermes Inspired Foldable Chair + Footrest',
+            priceRmb: 19428,
+            msrpUsd: 41800,
+            msrpSource: 'Hermès USA',
+            msrpUrl: 'https://www.hermes.com/us/en/product/pippa-folding-armchair-H900643Mv00/',
+            sizeCm: [
+                { label: 'Chair', w: 84, d: 54.3, h: 80.5 },
+                { label: 'Footrest', w: 61.5, d: 62.5, h: 49 }
+            ],
+            description: 'Foldable chair with matching footrest on slim X-frame bases. Apricot aniline leather with contrast stitching on sandblasted stainless steel; both fold flat for storage.',
+            videos: [
+                { src: 'hermes_foldable_chair_vid_1.mp4', alt: 'Hermes inspired foldable chair and footrest — showroom video' }
+            ],
+            images: [
+                { src: 'hermes_foldable_chair_img_1.jpg', alt: 'Hermes inspired foldable chair and footrest — full view' }
+            ]
+        }
+    ]
+};
+</script>
+<script src="../../lightbox.js"></script>
+</body>
+</html>

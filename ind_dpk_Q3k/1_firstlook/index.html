@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Private First Look — Beyond Showrooms">
+    <title>First Look — Private Document | Beyond Showrooms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<main class="fl-page fl-page--single-column fl-page--products">
+
+    <!--
+      ═══════════════════════════════════════════════════════════
+      HEADER — personalize via intro greeting + <title> / meta
+      Shown on the series hub only (hidden inside a series).
+      ═══════════════════════════════════════════════════════════
+    -->
+    <header class="fl-header">
+        <p class="fl-header__brand">Beyond Showrooms</p>
+        <h1 class="fl-header__title">First Look</h1>
+        <p class="fl-header__subtitle">A Starting Point for Your Foshan Journey</p>
+        <!-- ▼ Update this date whenever you send or revise the proposal -->
+        <p class="fl-header__date">18 November 2026</p>
+        <hr class="fl-header__rule">
+    </header>
+
+    <!-- ▼ Edit client name in the greeting below (hub only) -->
+    <p class="fl-intro">
+        <strong>Hi Deepak</strong> — I spent time this past weekend visiting a factory partner showroom to pull a sleek, pure-leather shortlist for your 16×16 ft living room (full leather, not plastic leather). Photos and videos were taken directly in the factory showrooms — mostly on my own iPhone. This First Look is deliberately from a single factory — a starting point to see if the direction and pricing feel right. Hope you like what we found; please share your feedback openly.
+    </p>
+
+    <!-- Hub / series product sections (built from FIRST_LOOK_CONFIG.products) -->
+    <div id="fl-rooms" class="fl-rooms"></div>
+
+    <!-- Shown on hub + inside every series (series footer) -->
+    <aside class="fl-sourcing" aria-label="A note on these pieces">
+        <p class="fl-sourcing__label">A note on these pieces</p>
+        <p class="fl-sourcing__body">All furniture images and videos are taken in factory showrooms where possible. Many pieces <strong>can be customized</strong> — ask us about it.</p>
+    </aside>
+
+    <!-- Hub only (hidden inside a series) -->
+    <section class="fl-next" aria-labelledby="fl-next-title">
+        <h2 id="fl-next-title" class="fl-next__title">What Happens Next</h2>
+        <ol class="fl-steps">
+            <li class="fl-step">
+                <h3 class="fl-step__heading">You review this First Look</h3>
+                <p class="fl-step__body">This page is a starting look from one factory — enough to see whether the style and pricing generally feel right. Please share your feedback openly. If something doesn’t fit (look, size, or price), we’ll discuss it in a follow-up and adjust from there.</p>
+            </li>
+            <li class="fl-step">
+                <h3 class="fl-step__heading">Confirm direction &amp; refine</h3>
+                <p class="fl-step__body">If you’re happy with the general direction, I suggest we move into a light formal engagement. As this is a small project, I’ll waive my usual US$500 project planning fee and ask only for a small nominal token fee — simply to confirm you’re serious about proceeding. We’ll then begin locking in what you like, change what needs changing, and approach one additional factory for alternate styles and comparative pricing on like pieces.</p>
+            </li>
+            <li class="fl-step">
+                <h3 class="fl-step__heading">Place the order</h3>
+                <p class="fl-step__body">Once selections and any custom specs are confirmed, we place the order — remotely or in person, whichever you prefer. Given the smaller size of this set and that you’re rather busy, a remote purchase can work well here. I’m happy to send extra photos or videos for confidence. You pay the factory directly for the goods. I arrange end-to-end logistics and charge logistics at cost. Total landed cost — including shipping fees and duties — is confirmed when the order is placed.</p>
+            </li>
+        </ol>
+        <div class="fl-contact">
+            <div class="fl-contact__person">
+                <img
+                    class="fl-contact__photo"
+                    src="../../david.jpg"
+                    alt="David — Beyond Showrooms"
+                    width="144"
+                    height="144"
+                    loading="lazy"
+                    decoding="async"
+                >
+                <p class="fl-contact__prompt"><strong>Have feedback, or ready for the next step?</strong></p>
+            </div>
+            <div class="fl-contact__options">
+                <a
+                    class="fl-contact__option"
+                    href="https://wa.me/8618500507027"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <svg class="fl-contact__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+                    <span class="fl-contact__text">
+                        <span class="fl-contact__label">WhatsApp</span>
+                        <span class="fl-contact__detail">+86 185 0050 7027</span>
+                    </span>
+                </a>
+                <a
+                    class="fl-contact__option"
+                    href="mailto:david.tan@wildchina.com?subject=My%20home%20project"
+                >
+                    <svg class="fl-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    <span class="fl-contact__text">
+                        <span class="fl-contact__label">Email</span>
+                        <span class="fl-contact__detail">david.tan@wildchina.com</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="fl-about" aria-labelledby="fl-about-title">
+        <h2 id="fl-about-title" class="fl-about__title">About Us</h2>
+        <p>
+            Beyond Showrooms helps international homeowners furnish their homes through a smarter sourcing path in China. We're affiliated with <a href="https://www.wildchina.com" target="_blank" rel="noopener noreferrer">WildChina</a>, China's leading bespoke travel provider since 2001 — and that's where our high-touch, end-to-end service ethos comes from.
+        </p>
+        <p>
+            Watch our docuseries — <a href="https://www.youtube.com/playlist?list=PLem0TGDnDhbR_qDtnVKB2VRIXDtdB-se5" target="_blank" rel="noopener noreferrer">Secret Furniture Empire</a>.
+        </p>
+    </section>
+
+    <footer class="fl-footer fl-footer--closing">
+        <p class="fl-footer__copy">&copy; Beyond Showrooms</p>
+        <p class="fl-footer__site"><a href="https://www.beyondshowrooms.com" target="_blank" rel="noopener noreferrer">www.beyondshowrooms.com</a></p>
+        <p class="fl-footer__privacy">This page is private and intended only for the recipient.</p>
+    </footer>
+
+</main>
+
+<!--
+  ════════════════════════════════════════════════════════════════
+  // MULTI-VIEW (series hub) — edit FIRST_LOOK_CONFIG.products below
+  Media files live in THIS folder next to index.html.
+
+  pageLayout: "products"
+  galleryLayout: "single-column"
+  seriesHub: true  → required for this template
+    Hub: series cards + Summary (+ What Happens Next / About / footer)
+    Series: sticky “Back to all series” + products + sourcing note only
+
+  Each product needs product.category (series title). Categories become hub cards.
+  Cover image = first image of the first product in that category.
+  Optional mid-series divider: product.sectionHeading (string or { title, subtitle }); card: true for extras
+  Optional series-top note: seriesNotes['Category Title'] = { title, body }
+  diagrams[] sit under the photo carousel (default label: Suggested configuration)
+  Summary on the hub includes thumbnails; click a row to open that series.
+
+  videos[] first (stacked), then images[] (carousel)
+  priceRmb + sizeCm are canonical. Details: description → Size/Price meta → optional MSRP footnote.
+  Omit priceRmb for photos-only options (Summary shows —).
+  sizeCm: { w, d, h }  OR  [{ label, w, d, h }, ...] for multi-piece items
+  Optional retail ref: msrpUsd, msrpSource, msrpUrl (Inspired-brand MSRP; follows currency toggle).
+  pricingUi: 'inspired-ref' (default) → client price · MSRP*; no client-facing RMB.
+
+  After dropping new photos, run:  python3 resize_images.py
+  Never use the word "replica". Prefer "designer-inspired".
+
+  Canonical filled client example:
+    #1_drafts/~DRAFT_cyp_grg/1_firstlook/
+  Flat single-column (no hub):
+    #0_template/#single_column/
+  ════════════════════════════════════════════════════════════════
+-->
+<script>
+window.FIRST_LOOK_CONFIG = {
+    pageLayout: 'products',
+    galleryLayout: 'single-column',
+    /* ▼ Multi-series: hub first, then drill into one series */
+    seriesHub: true,
+    /* ▼ Hub grid Menu + sticky back/Menu in series */
+    seriesHubMenu: true,
+    /* ▼ Bottom hint after first photo block; off until reload after any lightbox (all series) */
+    scrollPhotoHint: true,
+    pricingUi: 'inspired-ref',
+    /* ▼ Optional note under prefs when a series is open (keyed by category title) */
+    seriesNotes: {
+        'Living Room Sofas': {
+            title: 'Please note',
+            body:
+                '<p>Video and photos show the <strong>current factory showroom models</strong> — larger configurations than your 16×16 ft living room. For each sofa, we’ve included a <strong>suggested configuration</strong> that is more appropriately sized for your space.</p>' +
+                '<p>For the <strong>Coupé</strong>, note that the current showroom model uses fabric upholstery. We know you prefer leather, so the suggested configuration image is a rendering in leather upholstery.</p>'
+        }
+    },
+    /* ▼ Summary Total* footnote (omit to use lightbox.js default; false to hide) */
+    /* ▼ Options shortlist — no package total (multiple sofa alternatives, etc.) */
+    summaryTotal: false,
+    summaryFootnote: 'Prices are based on the specs shown. Final pricing is subject to confirmation of options, materials, and finishes.',
+    /* ▼ Edit rates when preparing a proposal (RMB per 1 unit of that currency) */
+    rmbPerUsd: 6.71,
+    secondaryCurrency: {
+        code: 'INR',
+        symbol: '₹',
+        rmbPerUnit: 0.0713
+    },
+    products: [
+        /* ── Living Room Sofas (anchors) ── */
+        {
+            id: 'minotti-blazer-sofa',
+            category: 'Living Room Sofas',
+            title: 'Minotti Inspired Blazer Sofa',
+            priceRmb: 53523,
+            msrpUsd: 34550,
+            msrpSource: 'Minotti by DDC',
+            msrpUrl: 'https://www.minottibyddc.com/product/blazer-sectional-miami-display/',
+            sizeCm: { w: 356, d: 108, h: 86 },
+            description: 'Generous L-shaped living sofa with deep seats and a soft, quilted grid pattern across the cushions. Full leather upholstery on a brushed dark stainless base.',
+            videos: [
+                { src: 'minotti_blazer_sofa_vid_1.mp4', alt: 'Minotti inspired Blazer sofa — showroom video' }
+            ],
+            images: [
+                { src: 'minotti_blazer_sofa_img_1.jpg', alt: 'Minotti inspired Blazer sofa — full view' },
+                { src: 'minotti_blazer_sofa_img_2.jpg', alt: 'Minotti inspired Blazer sofa — seating detail' },
+                { src: 'minotti_blazer_sofa_img_3.jpg', alt: 'Minotti inspired Blazer sofa — quilted cushions' },
+                { src: 'minotti_blazer_sofa_img_4.jpg', alt: 'Minotti inspired Blazer sofa — side profile' }
+            ],
+            diagrams: [
+                {
+                    src: 'minotti_blazer_sofa_diagram.png',
+                    alt: 'Minotti inspired Blazer sofa — suggested plan 3560 × 1080 mm',
+                    caption: 'Factory suggested footprint: 356 × 108 cm.'
+                }
+            ]
+        },
+        {
+            id: 'minotti-lawrence-sofa',
+            category: 'Living Room Sofas',
+            title: 'Minotti Inspired Lawrence Sofa',
+            priceRmb: 46252,
+            msrpUsd: 25697,
+            msrpSource: 'Kris Turnbull',
+            msrpUrl: 'https://www.kristurnbull.com/products/product/minotti-sofa/',
+            sizeCm: { w: 336, d: 112, h: 82 },
+            description: 'Low modular sofa with square-quilted seating and loose back cushions for a calm living-room layout. Full leather with a slender sandblasted dark metal perimeter base.',
+            videos: [
+                { src: 'minotti_lawrence_sofa_vid_1.mp4', alt: 'Minotti inspired Lawrence sofa — showroom video' }
+            ],
+            images: [
+                { src: 'minotti_lawrence_sofa_img_1.jpg', alt: 'Minotti inspired Lawrence sofa — full view' },
+                { src: 'minotti_lawrence_sofa_img_3.jpg', alt: 'Minotti inspired Lawrence sofa — quilt detail' }
+            ],
+            diagrams: [
+                {
+                    src: 'minotti_lawrence_sofa_diagram.png',
+                    alt: 'Minotti inspired Lawrence sofa — suggested plan 3360 × 1120 mm',
+                    caption: 'Factory suggested footprint: 336 × 112 cm.'
+                }
+            ]
+        },
+        {
+            id: 'minotti-coupe-sofa',
+            category: 'Living Room Sofas',
+            title: 'Minotti Inspired Coupé Sofa',
+            priceRmb: 65100,
+            msrpUsd: 25650,
+            msrpSource: 'Minotti by DDC',
+            msrpUrl: 'https://www.minottibyddc.com/product/coupe-sofa-boston-display/',
+            sizeCm: { w: 340, d: 109, h: 68 },
+            description: 'Long, low sofa with a continuous rounded back-and-arm wrap and soft channel detailing. Built for deep lounge seating, with a thin polished metal plinth at the floor.',
+            videos: [
+                { src: 'minotti_coupe_sofa_vid_1.mp4', alt: 'Minotti inspired Coupé sofa — showroom video' }
+            ],
+            images: [
+                { src: 'minotti_coupe_sofa_img_1.jpg', alt: 'Minotti inspired Coupé sofa — channel detail' },
+                { src: 'minotti_coupe_sofa_img_2.jpg', alt: 'Minotti inspired Coupé sofa — lounge seating' },
+                { src: 'minotti_coupe_sofa_img_3.jpg', alt: 'Minotti inspired Coupé sofa — metal plinth' },
+                { src: 'minotti_coupe_sofa_img_4.jpg', alt: 'Minotti inspired Coupé sofa — side profile' }
+            ],
+            diagrams: [
+                {
+                    src: 'minotti_coupe_sofa_rendering.jpg',
+                    alt: 'Minotti inspired Coupé sofa — leather rendering for suggested room size',
+                    caption: 'Leather rendering · suggested footprint 340 × 109 cm.',
+                    fit: 'cover'
+                }
+            ]
+        },
+
+        /* ── Accent Chairs: quoted first, then extras (photos only) ── */
+        {
+            id: 'minotti-emmi-lounge-chair',
+            category: 'Accent Chairs',
+            sectionHeading: 'Priced options',
+            title: 'Minotti Inspired Emmi Lounge Chair',
+            priceRmb: 20538,
+            sizeCm: { w: 100, d: 87.5, h: 75 },
+            description: 'Wide, nest-like lounge chair with thick leather seat and back cushions that fold over the frame. Smoked solid-wood slab legs keep the silhouette grounded and open.',
+            videos: [
+                { src: 'minotti_emmi_lounge_chair_vid_1.mp4', alt: 'Minotti inspired Emmi lounge chair — showroom video' }
+            ],
+            images: [
+                { src: 'minotti_emmi_lounge_chair_img_1.jpg', alt: 'Minotti inspired Emmi lounge chair — full view' },
+                { src: 'minotti_emmi_lounge_chair_img_2.jpg', alt: 'Minotti inspired Emmi lounge chair — cushion detail' },
+                { src: 'minotti_emmi_lounge_chair_img_3.jpg', alt: 'Minotti inspired Emmi lounge chair — wood legs' }
+            ]
+        },
+        {
+            id: 'minotti-torii-lounge-chair',
+            category: 'Accent Chairs',
+            title: 'Minotti Inspired Torii Lounge Chair',
+            priceRmb: 13392,
+            msrpUsd: 11255,
+            msrpSource: 'Minotti by DDC',
+            msrpUrl: 'https://www.minottibyddc.com/product/torii-armchair-boston-display/',
+            sizeCm: { w: 90, d: 87, h: 67.5 },
+            description: 'Circular swivel lounge chair with a drum seat and a soft wraparound leather shell. Brushed bronze metal finish under full leather upholstery.',
+            videos: [
+                { src: 'minotti_torii_lounge_chair_vid_1.mp4', alt: 'Minotti inspired Torii lounge chair — showroom video' }
+            ],
+            images: [
+                { src: 'minotti_torii_lounge_chair_img_1.jpg', alt: 'Minotti inspired Torii lounge chair — full view' },
+                { src: 'minotti_torii_lounge_chair_img_2.jpg', alt: 'Minotti inspired Torii lounge chair — wraparound shell' },
+                { src: 'minotti_torii_lounge_chair_img_3.jpg', alt: 'Minotti inspired Torii lounge chair — bronze base' }
+            ]
+        },
+        {
+            id: 'minotti-fynn-lounge-chair',
+            category: 'Accent Chairs',
+            title: 'Minotti Inspired Fynn Lounge Chair',
+            priceRmb: 13813,
+            msrpUsd: 3477,
+            msrpSource: 'Longho',
+            msrpUrl: 'https://www.longhoshop.com/en/armchairs/1357-minotti-fynn-armchair-fabric.html',
+            sizeCm: { w: 75, d: 72, h: 78 },
+            description: 'Compact lounge chair with elongated strap armrests on a slim dark metal frame. Plush seat and back cushions with leather and saddle-microfiber detailing.',
+            videos: [
+                { src: 'minotti_flynn_lounge_chair_vid_1.mp4', alt: 'Minotti inspired Fynn lounge chair — showroom video' }
+            ],
+            images: [
+                { src: 'minotti_flynn_lounge_chair_img_1.jpg', alt: 'Minotti inspired Fynn lounge chair — full view' },
+                { src: 'minotti_flynn_lounge_chair_img_2.jpg', alt: 'Minotti inspired Fynn lounge chair — strap armrests' },
+                { src: 'minotti_flynn_lounge_chair_img_3.jpg', alt: 'Minotti inspired Fynn lounge chair — cushion detail' },
+                { src: 'minotti_flynn_lounge_chair_img_4.jpg', alt: 'Minotti inspired Fynn lounge chair — metal frame' }
+            ]
+        },
+        {
+            id: 'minotti-laurel-lounge-chair',
+            category: 'Accent Chairs',
+            sectionHeading: {
+                title: 'Extra chair options',
+                subtitle: 'Additional options we think would suit your space — photos and descriptions only. Fabric showroom samples below can also be made in leather.'
+            },
+            card: true,
+            title: 'Minotti Inspired Laurel Lounge Chair',
+            description: 'Swivel lounge chair with a caramel leather outer shell and a soft chenille seat-and-back in warm ochre. Polished chrome four-star base (metal, not wood).',
+            videos: [],
+            images: [
+                { src: 'extras/minotti_laurel_lounge_chair_img_1.jpg', alt: 'Minotti inspired Laurel lounge chair — showroom view' }
+            ]
+        },
+        {
+            id: 'minotti-lawrence-clan-sofa',
+            category: 'Accent Chairs',
+            card: true,
+            title: 'Minotti Inspired Lawrence Clan Sofa',
+            description: 'Compact modular seating in quilted charcoal leather — useful as a two-seater accent beside a larger sofa. Dark wood plinth base (no metal legs).',
+            videos: [],
+            images: [
+                { src: 'extras/minotti_lawrence_clan_sofa_two_seater_img_1.jpg', alt: 'Minotti inspired Lawrence Clan sofa — modular two-seater' }
+            ]
+        },
+        {
+            id: 'minotti-saki-lounge-chair',
+            category: 'Accent Chairs',
+            card: true,
+            title: 'Minotti Inspired Saki Lounge Chair',
+            description: 'Low, armless lounge chair with a thick rounded seat and matching back cushion in olive textured fabric. Flat metal swivel base close to the floor.',
+            videos: [],
+            images: [
+                { src: 'extras/minotti_saki_lounge_chair_img_1.jpg', alt: 'Minotti inspired Saki lounge chair — pair in showroom' }
+            ]
+        },
+        {
+            id: 'minotti-trio-lounge-chair',
+            category: 'Accent Chairs',
+            card: true,
+            title: 'Minotti Inspired Trio Lounge Chair',
+            description: 'Reclined lounge chair with olive bouclé cushions on a dark-stained wood frame and tapered wood legs — closest match here to a wood-leg preference.',
+            videos: [],
+            images: [
+                { src: 'extras/minotti_trio_lounge_chair_img_1.jpg', alt: 'Minotti inspired Trio lounge chair — wood frame' }
+            ]
+        },
+        {
+            id: 'poliform-leclub-lounge-chair',
+            category: 'Accent Chairs',
+            card: true,
+            title: 'Poliform Inspired Le Club Lounge Chair',
+            description: 'Sculptural leather lounge with folded “origami” arms that flow into the base — sleek full-leather silhouette without separate wood legs.',
+            videos: [],
+            images: [
+                { src: 'extras/poliform_leclub_lounge_chair_img_1.jpg', alt: 'Poliform inspired Le Club lounge chair — pair with side table' },
+                { src: 'extras/poliform_leclub_lounge_chair_img_2.jpg', alt: 'Poliform inspired Le Club lounge chair — alternate view' }
+            ]
+        },
+
+        /* ── Coffee Tables ── */
+        {
+            id: 'minotti-liam-coffee-table',
+            category: 'Coffee Tables',
+            title: 'Minotti Inspired Liam Coffee Table',
+            priceRmb: 18270,
+            msrpUsd: 11615,
+            msrpSource: 'Minotti by DDC',
+            msrpUrl: 'https://www.minottibyddc.com/product/liam-coffee-table-2/',
+            sizeCm: { w: 120, d: 120, h: 28 },
+            description: 'Low square coffee table sized for a large sofa grouping, with nested marble planes. Imported Venice Brown marble on a dark metal frame.',
+            videos: [
+                { src: 'minoitti_liam_coffeetable_vid_1.mp4', alt: 'Minotti inspired Liam coffee table — showroom video' }
+            ],
+            images: [
+                { src: 'minoitti_liam_coffeetable_img_1.jpg', alt: 'Minotti inspired Liam coffee table — full view' },
+                { src: 'minoitti_liam_coffeetable_img_2.jpg', alt: 'Minotti inspired Liam coffee table — marble planes' },
+                { src: 'minoitti_liam_coffeetable_img_3.jpg', alt: 'Minotti inspired Liam coffee table — nested tops' },
+                { src: 'minoitti_liam_coffeetable_img_4.jpg', alt: 'Minotti inspired Liam coffee table — dark metal frame' }
+            ]
+        },
+        {
+            id: 'minotti-eliott-coffee-table',
+            category: 'Coffee Tables',
+            title: 'Minotti Inspired Eliott Coffee Table',
+            priceRmb: 19110,
+            sizeCm: { w: 108, d: 108, h: 28 },
+            description: 'Low square coffee table with a bold marble top and a reflective metal base. Napoleon Red marble with a polished chrome-faced plinth.',
+            videos: [
+                { src: 'minotti_elliott_coffee_table_vid_1.mp4', alt: 'Minotti inspired Eliott coffee table — showroom video' }
+            ],
+            images: [
+                { src: 'minotti_elliott_coffee_table_img_1.jpg', alt: 'Minotti inspired Eliott coffee table — full view' },
+                { src: 'minotti_elliott_coffee_table_img_2.jpg', alt: 'Minotti inspired Eliott coffee table — marble top' },
+                { src: 'minotti_elliott_coffee_table_img_3.jpg', alt: 'Minotti inspired Eliott coffee table — chrome plinth' }
+            ]
+        },
+
+        /* ── Dining Chairs (no dining table in this First Look) ── */
+        {
+            id: 'minotti-torii-dining-chair',
+            category: 'Dining Chairs',
+            title: 'Minotti Inspired Torii Dining Chair',
+            priceRmb: 3538,
+            msrpUsd: 6340,
+            msrpSource: 'Minotti by DDC',
+            msrpUrl: 'https://www.minottibyddc.com/product/torii-large-dining-chair/',
+            sizeCm: { w: 59, d: 61, h: 80 },
+            description: 'Soft round dining chair with a stacked circular seat and curved back for everyday table use. Ash wood frame with fabric upholstery (leather available on request).',
+            videos: [],
+            images: [
+                { src: 'minotti_torii_dining_chair_img_1.jpg', alt: 'Minotti inspired Torii dining chair — full view' },
+                { src: 'minotti_torii_dining_chair_img_2.jpg', alt: 'Minotti inspired Torii dining chair — seat detail' },
+                { src: 'minotti_torii_dining_chair_img_3.jpg', alt: 'Minotti inspired Torii dining chair — curved back' },
+                { src: 'minotti_torii_dining_chair_img_4.jpg', alt: 'Minotti inspired Torii dining chair — ash wood frame' }
+            ]
+        },
+        {
+            id: 'baxter-clotilde-dining-chair',
+            category: 'Dining Chairs',
+            title: 'Baxter Inspired Clotilde Dining Chair',
+            priceRmb: 3363,
+            msrpUsd: 3520,
+            msrpSource: 'Mohd Shop',
+            msrpUrl: 'https://shop.mohd.it/en/brands/baxter/chairs.html',
+            sizeCm: { w: 60, d: 60, h: 76 },
+            description: 'Compact dining chair with a rounded, enveloping back that supports without separate armrests. Ash wood frame with fabric upholstery (leather available on request).',
+            videos: [
+                { src: 'clotilde_dining_chair_vid_1.mp4', alt: 'Baxter inspired Clotilde dining chair — showroom video' },
+                { src: 'clotilde_dining_chair_img_3.mp4', alt: 'Baxter inspired Clotilde dining chair — detail video' }
+            ],
+            images: [
+                { src: 'clotilde_dining_chair_img_1.jpg', alt: 'Baxter inspired Clotilde dining chair — full view' },
+                { src: 'clotilde_dining_chair_img_2.jpg', alt: 'Baxter inspired Clotilde dining chair — enveloping back' },
+                { src: 'clotilde_dining_chair_img_4.jpg', alt: 'Baxter inspired Clotilde dining chair — fabric detail' },
+                { src: 'clotilde_dining_chair_img_5.jpg', alt: 'Baxter inspired Clotilde dining chair — ash wood frame' },
+                { src: 'clotilde_dining_chair_img_6.jpg', alt: 'Baxter inspired Clotilde dining chair — side profile' }
+            ]
+        }
+    ]
+};
+</script>
+<script src="../../lightbox.js"></script>
+</body>
+</html>

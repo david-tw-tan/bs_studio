@@ -1,0 +1,21 @@
+.DS_Store
+
+# Local-only folders (keep out of GitHub)
+# Leading # must be escaped or gitignore treats the line as a comment.
+\#0_template/
+\#1_drafts/
+
+# Internal notes and tooling. The live pages do not load these.
+.cursor/
+*.md
+*.rtf
+*.py
+*.pyc
+__pycache__/
+
+# Factory quotes and client spreadsheets
+*.xlsx
+*.xlsm
+*.xls
+*.ods
+*.et
